@@ -7,6 +7,7 @@ const Contactos = ({nombre,telefono,id,setIsLoading,setUpdate}) => {
    const eliminarContacto = async ()=>{
      const delet = await fetch(`${base_url}detele/${id}`, {
       method: 'DELETE'})
+      setUpdate(true)
       setIsLoading(true);
 
    }

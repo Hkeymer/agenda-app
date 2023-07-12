@@ -25,9 +25,10 @@ function App() {
       .then(data=>{
         setContactos(data)
         setIsLoading(false)
+        setUpdate(false)
       })
       .catch(err=>console.log(err))
-       setUpdate(false)
+     
     }
 
     get() 
@@ -53,6 +54,7 @@ function App() {
       nombre={d.nombre}
       telefono={d.telefono}
       id={d.id}
+      setUpdate={setUpdate}
       setIsLoading={setIsLoading}
       />)}
       </div>
