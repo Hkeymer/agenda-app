@@ -1,0 +1,22 @@
+.conten{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.2px solid #aaaa;
+    padding: 15px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.conten h4 {
+    font-weight: 400;
+  }
+.conten h4 i {
+     font-size: 12px;
+  }
+.conten button{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 12px;
+  }

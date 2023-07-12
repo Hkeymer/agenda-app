@@ -1,0 +1,17 @@
+.conten{
+    width: 100%;
+    padding: 15px;
+    background-color: #000;
+}
+
+.conten h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+.conten h1 span{
+    font-size: 14px;
+    color: #aaa;
+    font-weight: normal;
+}
