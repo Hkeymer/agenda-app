@@ -13,7 +13,7 @@ function App() {
  
   const [contactos, setContactos] = useState([])
   const [update, setUpdate] = useState(false)
-  const [isloading, setIsLoading] = useState(false)
+  const [isloading, setIsLoading] = useState(true)
 
 
    useEffect(() => {
